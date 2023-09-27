@@ -1,0 +1,8 @@
+calibration_result为单目相机标定输出的参数
+calibration_photos为单目标定所用图片集
+photo为双目标定及矫正所用图片集
+chess_board为标定板图片
+extrinsics为双目标定输出外参
+intrinsics为双目标定输出内参
+recitified为矫正完的最终比对图
+recitifyImageL/R为矫正完的最终图片集
