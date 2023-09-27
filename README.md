@@ -20,32 +20,39 @@ First, camera calibration is performed, including monocular camera calibration, 
 Image matching has two methods: The first is sparse matching based on feature points, using Harris or Orb to detect feature points, and then using Brief to describe and match these points; the second is dense matching using the SGBM algorithm.
 After matching, the camera parameters are combined to calculate disparity and depth. Finally, the three-dimensional coordinates are recorded and visualized using the pangolin library, completing the 3D reconstruction.
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927002709913.png" alt="image-20230927002709913" style="zoom:30%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/b5e9d5b8-916b-48af-a212-96e5fa3fd72e)
+
 
 #### Results
 
 1. Calibration
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003058966.png" alt="image-20230927003058966" style="zoom:70%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/2cddafa2-000d-49c6-88c0-76d12b1540c2)
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003044332.png" alt="image-20230927003044332" style="zoom:50%;" />
+
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/d45a2b81-4f04-42b3-9201-dd01eaaeb181)
+
 
 2. Harris feature detection
 
-   <img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003144957.png" alt="image-20230927003144957" style="zoom:50%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/fd6eb10d-cce7-47dc-b09e-fae0ce82df84)
 
-3. Orb feature detection
 
-   <img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003152899.png" alt="image-20230927003152899" style="zoom:50%;" />
+3. Fast feature detection
+
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/72daed11-1134-4bef-9c02-0e98387cd70d)
+
 
 4. Sparse matching
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003320062.png" alt="image-20230927003320062" style="zoom:70%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/c26e6f52-7d4c-4040-899b-6cb30cbbac38)
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003537459.png" alt="image-20230927003537459" style="zoom:70%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/890ef98b-7f22-4981-aed9-17cc16f2a21a)
+
 
 5. Dense matching
+   
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/e79f5ce6-ef0d-41f4-9a21-ab4d92f9bfd5)
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003623082.png" alt="image-20230927003623082" style="zoom:70%;" />
+![image](https://github.com/jimazeyu/StereoVision3DReconstruction/assets/69748976/9c3bf38b-7779-4144-bffe-877ffa1c8e3c)
 
-<img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230927003632941.png" alt="image-20230927003632941" style="zoom:70%;" />
